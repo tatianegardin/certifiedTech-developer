@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:ital@1&family=Zen+Kaku+Gothic+Antique:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&family=Roboto&family=Roboto+Mono:ital@1&family=Zen+Kaku+Gothic+Antique:wght@900&display=swap');
+
+
+body{
+    background-color: black;
+}
+
+h1 {
+    color: blanchedalmond;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.azul {
+    font-family: 'Raleway', sans-serif;
+    color: blanchedalmond;
+    background-color: blue;
+    width: 550px;
+    height: 200px;
+    padding: 45px 20px;
+    border: dotted 10px yellow;
+    margin: 25px;
+    box-sizing: border-box;
+}
+
+#blocoRosa {
+    font-family: 'Roboto Mono', monospace;
+    color: blanchedalmond;
+    background-color: blueviolet ;
+    width: 380px;
+    height:480px;
+    padding: auto ;
+    border: solid 15px red;
+    margin: auto;
+    box-sizing: border-box;
+
+}

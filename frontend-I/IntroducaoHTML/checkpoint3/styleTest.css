@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+
+.card {
+  border: 2px black solid;
+  border-radius: 10px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card .card-body {
+  border-radius: 10px;
+}
+
+.card .card-img-top {
+  border-radius: 8px;
+}
+
+.botao {
+  text-align: center;
+}
+
+.botao .btn {
+  width: 50%;
+  border: 2px solid;
+  font-weight: 500;
+}
+
+.itens {
+  text-align: center;
+  font-weight: 900;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+footer {
+  height: 1fr;
+  background-color: black;
+  color: aliceblue;
+}
+/*# sourceMappingURL=styleTest.css.map */

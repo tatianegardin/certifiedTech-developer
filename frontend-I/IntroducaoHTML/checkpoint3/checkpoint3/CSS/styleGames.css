@@ -1,0 +1,41 @@
+.footer {
+  height: 1fr;
+  background-color: black;
+  color: #746f6f;
+}
+
+.footer .alunos {
+  color: white;
+}
+
+.footer .icones {
+  margin: 5px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+}
+
+* .caixa-principal .link {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+* footer {
+  height: 1fr;
+  background-color: black;
+  color: #746f6f;
+}
+
+* footer .alunos {
+  color: white;
+}
+
+* footer .icones {
+  margin: 5px;
+}
+/*# sourceMappingURL=styleGames.css.map */

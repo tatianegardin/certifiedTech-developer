@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Doceria da Tati!</h1>
+        <h3>Aqui você monta o seu doce da maneira que te agradar!</h3>
+    </header>
+
+    <main>
+        <form action="cadastroCliente" name="cadastroCli"></form>
+        <fieldset>
+
+            <legend>Dados cadastrais.</legend>
+
+            <div class="cadastroCli">
+                <label for="Name">Nome:</label>
+                <input type="text" name="name" id="name" placeholder="Insira seu nome">
+            </div>
+
+            <div class="cadastroCli">
+                <label for="telefone">Tel: </label>
+                <input type="text" name="telefone" id="telefone" placeholder="Insira seu telefone">
+            </div>
+
+            <div class="cadastroCli">
+                <label for="endereco">Endereço:</label>
+                <input type="text" name="endereco" id="endereco" placeholder="Insira seu endereco">
+            </div>
+
+            <div class="cadastroCli">
+                <label for="obs">Observações: </label>
+                <input type="textarea"  name="obs" id="obs" placeholder="Insira sua observação">
+            </div>
+
+
+        </fieldset>
+
+        <fieldset>
+            <form action="pedidos" name="pedidos"></form>
+
+            <legend>Milkshake</legend>
+
+            <div class="milkshake">
+                
+                <input type="checkbox" id="milkchoc" name="milkchoc" value="Chocolate">
+                <label for="milkchoc">chocolate </label>
+                <input type="checkbox" id="milkmor" name="milkmor" value="morango">
+                <label for="milkmor">morango </label>
+                <input type="checkbox" id="milkovo" name="milkovo" value="ovomaltine">
+                <label for="milkovo">ovomaltine </label>
+            </div>
+
+            
+            <div class="pedidos">
+                <p>Tamanho: </p>
+                <input type="checkbox" id="milk300" name="milk300" value="300">
+                <label for="milk300">300ml </label>
+                <input type="checkbox" id="milk500" name="milk500" value="500">
+                <label for="milk500">500ml </label>
+                <input type="checkbox" id="milk700" name="milk700" value="700">
+                <label for="milk700">700ml </label>
+            </div>
+
+            
+
+        </fieldset>
+
+        <fieldset>
+            <form action="brigadeiro" name="brigadeiro"></form>
+
+            <legend>Brigadeiro</legend>
+
+            <div class="brigadeiro">
+                
+                <input type="checkbox" id="brigtrad" name="brigtrad" value="tradicional">
+                <label for="brigtrad"> Tradicional </label>
+                <input type="checkbox" id="brigmorg" name="brigmorg" value="morango">
+                <label for="brigmorg">Morango </label>
+                <input type="checkbox" id="brigninhocnutella" name="brigninhocnutella" value="ninhoCNutella">
+                <label for="brigninhocnutella">Ninho com Nutella </label>
+            </div>
+
+            
+            <div class="pedidos">
+                <p>Tamanho: </p>
+                <input type="checkbox" id="brig10" name="brig10" value="10">
+                <label for="brig10"> 10 unidades </label>
+                <input type="checkbox" id="brig25" name="brig25" value="25">
+                <label for="brig25">25 unidades </label>
+                <input type="checkbox" id="brig50" name="brig50" value="50">
+                <label for="brig50">50 unidades </label>
+            </div>
+
+            
+
+        </fieldset>
+        
+    </main>
+</body>
+</html>

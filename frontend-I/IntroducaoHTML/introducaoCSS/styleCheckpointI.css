@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&family=Roboto&family=Roboto+Mono:ital,wght@1,300&family=Zen+Kaku+Gothic+Antique:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Hind+Siliguri:wght@600&family=Raleway:ital,wght@1,200&family=Roboto:wght@700&family=Zen+Kaku+Gothic+Antique:wght@900&display=swap'); 
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: URL("../imagens/sjc.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+p{
+    font-family: 'Raleway', sans-serif;;
+    color: rgb(240, 240, 128);
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.733);
+    margin: 0 ;
+    text-align: justify;
+
+}
+header{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    text-align: center;
+    background-color: rgba(233, 141, 87, 0.705);
+    color: rgb(245, 246, 248);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0 ;
+   
+    
+
+}
+
+iframe {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 1280px;
+    height: 720px;
+    border: black solid 10px;
+    border-radius: 25px;
+}
+
+h2{
+    color: blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.733);
+    margin: 10px 500px;
+    border: brown solid 5px ;
+    font-size: 30px;
+    width: 300px;
+    height: auto; 
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    margin-left: -50px;
+    border-radius: 30px;
+}
+
+
+
+.listaCuriosidades{
+    color: blanchedalmond;
+    font-size: 25px;
+    background-color: rgba(170, 11, 11, 0.644);
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding-top: 15px ;
+    padding-bottom: 15px;
+    border-radius: 40px;
+    text-align: justify;
+    
+}
+
+.icones {
+    width: 100px;
+    margin-right: 50px;
+    margin-top: 100px ;
+    position: relative;
+    bottom: 0;
+    
+}
+
+#ref1 {
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.divImagens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagensSJC {
+   
+    width: 180x;
+    height: 130px;
+    border-radius: 500px;
+    margin: 20px;
+    
+}
+
+li {
+    margin: 10px;
+}
+
+#whatsapp {
+    position: fixed;
+    bottom: 50px;
+    right: 5px;
+} 
+
+
+
+@media(max-width: 480px){
+    iframe {
+        height: 50%px;
+        width: 100px;
+        border: black solid 1px;
+        border-radius: 20px;
+    }
+    body {
+        background-image: URL("../imagens/sjc.jpg");
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        
+    }
+
+    #whatsapp {
+        position: fixed;
+        bottom: 5px;
+        right: 2px;
+      
+    } 
+    .divImagens{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+    .imagensSJC{
+
+        height: 90% ;
+        width: 90%;
+        margin: 5px;
+    }
+
+    h2{
+        color: blanchedalmond;
+        background-color: rgba(0, 0, 0, 0.733);
+        margin: 10px 500px;
+        border: brown solid 5px ;
+        font-size: 30px;
+        width: 300px;
+        height: auto; 
+        text-align: center;
+        position: absolute;
+        left: 30%;
+        margin-left: -50px;
+        border-radius: 30px;
+    }
+    .rodape{
+        display: flex;
+        flex-direction: row;
+        margin: 30px;
+    }
+
+        
+}
+
+
+
+@media(max-width: 768px){
+    body {
+        background-image: URL("../imagens/sjc.jpg");
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        
+    }
+    .subtitulo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    iframe {
+        margin: 5px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        width: 90%;
+        height: 500px;
+        border: black solid 1px;
+        border-radius: 20px;
+    }
+
+    .imagensSJC{
+        
+        height: 40% ;
+        width: 40%;
+        margin: 15px;
+        border-radius: 30px;
+    }
+
+}
+
+
+
+@media(max-width: 1279px){
+    iframe {
+        margin: 5px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        width: 90%;
+        height: 600px;
+        border: black solid 1px;
+        border-radius: 20px;
+    }
+
+
+}
+
+
+@media(min-width: 1280px){
+    iframe {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        width: 1280px;
+        height: 720px;
+        border: black solid 10px;
+        border-radius: 25px;
+    }
+}

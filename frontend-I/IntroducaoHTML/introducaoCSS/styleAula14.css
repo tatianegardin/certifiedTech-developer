@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+
+}
+
+header{
+    background-color: rgba(165, 42, 42, 0.438);
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+body {
+    background-color: rgba(92, 53, 53, 0.507);
+    color: blanchedalmond;
+    height: 1800px;
+
+}
+
+#p1{
+    margin: 30px;
+}
+
+fieldset{
+    color: black;
+    background-color: brown;
+    font-weight: 600;
+    margin: 20px;
+    margin-top: 50px;
+    border: rgba(0, 0, 0, 0.424) 5px solid;
+}
+
+input{
+    margin: 10px;
+}
+
+li{
+    margin: 10px;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    margin: 55px;
+    background-color: burlywood;
+    padding: 10px;
+
+}
+
+#p2{
+    margin: 10px;
+}
+
+#p3{
+    margin: 10px;
+    margin-top: 120px;
+}
+
+#p4{
+    margin: 10px;
+    margin-top: 100px;
+}
+
+#p5{
+    margin: 10px;
+    margin-top: 140px;
+}
+
+
+input:hover{
+
+    background-color: cornflowerblue;
+
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: purple;
+}
+
+input:focus{
+    background-color: rgb(84, 225, 65);
+}
+
+button{
+    margin: 10px;
+    background-color: violet;
+    border-radius: 12px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-weight: 700;
+    border: black 2px solid;
+}
+
+#cadastrar:disabled{
+    background-color: rgba(248, 241, 241, 0.959);
+}
+
+#limpar:enabled{
+    background-color: skyblue;
+}
+
+li:nth-child(2n){
+    background-color: rgb(191, 191, 231);
+    width: 500px;
+}
+
+#p5::first-letter{
+    color: red;
+    font-size: 60px;
+}

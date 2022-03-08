@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="introducaoCSS/styleAula14.css">
+    <title>Aula 14, pseudo seletores</title>
+</head>
+<body>
+    <header><h1>Aula de pseudo-classes e pseudo-elementos</h1></header>
+
+    <main>
+        <p id="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae corrupti itaque, totam reiciendis tempora iste nulla nam incidunt delectus, accusantium quisquam, praesentium necessitatibus. Voluptate animi eaque ut, minima consequatur rerum!</p>
+        <fieldset id="cadastro">
+            <legend>Cadastro</legend>
+            <form action="testform">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="insira seu nome">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                </div>
+
+                <div>
+                    <p id="pInterno">Sexo</p>
+                    <input type="checkbox" id="generoM" name="genemoM" value="Masculino">
+                    <label for="generoM">Masculino</label>
+                    <input type="checkbox" id="generoF" name="genemoF" value="Feminino" checked>
+                    <label for="generoF">Feminino</label>
+                   
+                </div>
+
+                
+            </form>
+            <button enabled id="limpar" type="reset">Limpar</button>
+            <button disabled id="cadastrar" type="submit">Cadastrar</button>
+        </fieldset>
+
+
+        <fieldset id="indice">
+            <legend>Indice</legend>
+
+            <ul>
+                <li> <a href="#p2">Aqui você será direcionado para o segundo parágrafo</a></li>
+                <li><a href="#p3">Terceiro parágrafo</a></li>
+                <li><a href="#p4">Quarto parágrafo</a></li>
+                <li><a href="#p5">Ultimo</a></li>
+            </ul>
+                
+            
+
+
+        </fieldset>
+
+
+        <h2>Vamos as práticas</h2>
+        <p id="p2" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, ducimus! Nobis ratione dicta tempore rerum ut, debitis accusamus porro quia perspiciatis iusto quisquam, cupiditate neque deserunt earum labore, suscipit nisi.</p>
+
+        <p id="p3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt itaque porro rem alias neque, accusamus aliquam nesciunt, consequatur ea culpa id distinctio deserunt dolores dignissimos dolorem? Esse commodi cumque voluptate?</p>
+
+        <p id="p4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt itaque porro rem alias neque, accusamus aliquam nesciunt, consequatur ea culpa id distinctio deserunt dolores dignissimos dolorem? Esse commodi cumque voluptate?</p>
+
+        <p id="p5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt itaque porro rem alias neque, accusamus aliquam nesciunt, consequatur ea culpa id distinctio deserunt dolores dignissimos dolorem? Esse commodi cumque voluptate?</p>
+        
+        
+    </main>
+    
+</body>
+</html>

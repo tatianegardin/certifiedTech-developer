@@ -1,0 +1,73 @@
+
+
+html {
+    scroll-behavior: smooth;    // Navegação da página suavizada.
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    body {
+
+
+        main {
+
+            .card{
+                border: 2px black solid;
+                border-radius: 10px;
+                transition-duration: 0.3s;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+
+                .card-body{
+                    border-radius: 10px;
+                }
+
+                .card-img-top{
+                    border-radius: 8px 8px 0 0;
+                }  
+            }
+
+
+            .botao{
+                text-align: center;
+
+                .btn{
+                    width: 50%;
+                    border: 2px solid;
+                    font-weight: 500;
+                }
+                
+            }
+
+            .itens{
+                text-align: center;
+                font-weight: 900;
+                padding: 1rem;
+                margin-top: 1rem;
+
+                h1{
+                    font-weight: 1000px;
+                }
+            }
+        }
+
+        footer{
+            height: 1fr;
+            background-color: black;
+            color: rgb(116, 111, 111);
+        
+            .alunos{
+                color: rgb(255, 255, 255);
+            }
+        
+            .icones{
+                margin: 5px;
+            }
+        }
+    }
+}

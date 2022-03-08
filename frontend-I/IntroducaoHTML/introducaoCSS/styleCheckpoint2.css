@@ -1,0 +1,311 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+/* 
+font-family: 'Outfit', sans-serif;
+
+font-family: 'Roboto Mono', monospace; */
+
+*{
+    box-sizing: border-box;
+    margin: 0
+}
+
+
+
+body{
+    background-image: url(../imagens/sjc.jpg);
+    font-size: 20px;
+    background-size: cover;
+    text-align: center;
+    
+
+}
+
+header{
+    font-family: 'Outfit', sans-serif;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: bisque;
+    padding: 15px;
+    
+
+}
+
+
+main {
+
+    font-family: 'Roboto Mono', monospace;
+}
+h1 {
+    text-align: center;
+    margin: 10px;
+    font-size:  40px;
+    animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
+}
+
+#p1{
+    margin: 10px;
+    text-align: left;
+    color: rgb(218, 218, 104);
+}
+
+#p2{
+    margin: 10px;
+    text-align: center;
+    color: rgb(218, 218, 104);
+}
+
+
+
+#dados{
+    background-color: rgba(0, 0, 0, 0.849);
+    color: antiquewhite;
+    padding: 20px;
+    border-radius: 30px;
+    width: 900px;
+    margin: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+  
+    
+    
+    
+}
+
+#opiniao{
+    background-color: rgba(0, 0, 0, 0.849);
+    color: antiquewhite;
+    padding: 20px ;
+    border-radius: 30px;
+    width: 900px;
+    margin: 10px;
+    margin-top: 20px;
+    text-align: left;
+    
+}
+input{
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 0);
+    border: 0;
+    border-bottom: 2px black solid;
+    font-size: 15px;
+    transition-property: all ;
+    transition-duration: 0.3s;
+
+}
+select{
+    margin: 10px;
+    background-color: rgb(47, 3, 3);
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+    transition-property: all ;
+    transition-duration: 0.3s;
+
+}
+
+#status {
+    margin: 20px;
+}
+
+
+#cadastroDados {
+    display: inline-block;
+    position: relative;
+}
+
+#principal{
+    text-align: center;
+    width:100%;
+}
+
+#maiorOuMenor{
+    margin: 10px;
+}
+
+button{
+    width: 100px;
+    padding: 6px;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: bisque;
+    border-radius: 10px;
+    transition-property: all ;
+    transition-duration: 0.3s;
+}
+
+input:hover{
+    transform: scale(1.2);
+
+}
+
+select:hover{
+    transform: scale(1.2);
+}
+
+
+#cadastrar:hover{
+    background-color: rgba(95, 139, 6, 0.726);
+    color: black;
+    transform: scale(1.2);
+    font-weight: 700;
+    border: 2px black solid;
+}
+
+#limpar:hover{
+    background-color: rgba(172, 44, 21, 0.863);
+    color: rgb(255, 239, 10);
+    transform: scale(1.2);
+    border: 2px black solid;
+    font-weight: 700;
+}
+
+input[type=radio] {
+    width: 10%;
+    height: 20px;
+}
+
+.imagensSJC{
+    width: 180x;
+    height: 130px;
+    margin: 50px;
+    border-radius: 20px ;
+    border: 2px black solid;
+    
+    }
+.imagensSJC:hover{
+    animation: vibrate-3 0.5s linear infinite both;
+}
+
+
+footer{
+    margin:  50px 0 ;
+    background-color: rgba(65, 6, 6, 0.787);
+    padding: 60px;
+    position: relative;
+    top: 0 ;
+    border-radius: 150px;
+}
+
+
+figcaption{
+    color: aliceblue;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a{
+    color: aliceblue;
+}
+.imagensCidade{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-areas: 
+    'parque eus2sjc bandeirantes arcoinov  bolinho';
+}
+
+
+
+#parque{
+    grid-area: parque;
+}
+
+#bandeirantes{
+    grid-area: bandeirantes;
+}
+
+#bolinho{
+    grid-area: bolinho;
+}
+
+#arcoinov{
+    grid-area: arcoinov;
+
+}
+
+#eus2sjc{
+    grid-area: eus2sjc;
+}
+
+
+
+
+
+
+@keyframes vibrate-3 {
+  0% {
+        transform: translate(0);
+  }
+  10% {
+        transform: translate(-2px, -2px);
+  }
+  20% {
+        transform: translate(2px, -2px);
+  }
+  30% {
+        transform: translate(-2px, 2px);
+  }
+  40% {
+        transform: translate(2px, 2px);
+  }
+  50% {
+        transform: translate(-2px, -2px);
+  }
+  60% {
+        transform: translate(2px, -2px);
+  }
+  70% {
+        transform: translate(-2px, 2px);
+  }
+  80% {
+        transform: translate(-2px, -2px);
+  }
+  90% {
+        transform: translate(2px, -2px);
+  }
+  100% {
+        transform: translate(0);
+  }
+}
+
+
+  @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+
+
+#agradecimento{
+    background-color: rgba(0, 0, 0, 0.719);
+    color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
+  
+    padding-top: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "feitoPor colaboracao";
+
+    }  
+
+
+#feitoPor{
+    grid-area: feitoPor;
+
+}
+
+#colaboracao{
+    grid-area: colaboracao;
+}

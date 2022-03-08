@@ -1,0 +1,3 @@
+a interface do usuário (UI) é o conjunto dos controles e canais sensoriais mediante as quais um usuário 
+pode comunicar-se com uma máquina. ... Uma boa interface do usuário caracteriza-se por ter um alto grau de usabilidade
+ e por ser amigável e intuitiva.

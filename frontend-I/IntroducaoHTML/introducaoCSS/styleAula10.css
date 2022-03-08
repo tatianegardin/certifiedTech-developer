@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+}
+body{
+    background-image: url("../imagens/pexels-griffin-wooldridge-3654869\(1\).jpg");
+    height: 800px ;
+    width: 100% ;
+    background-position: center;
+    text-align: center;
+    padding: 0px 20px
+}
+
+
+button {
+    height: 40px;
+    width: 15%;
+    box-sizing: border-box;
+    border-radius: 300px ;
+    background-color: cornflowerblue;
+    margin-top: 20px;
+}

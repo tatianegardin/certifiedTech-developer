@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de interesses - São José dos Campos</title>
+    <link rel="stylesheet" href="introducaoCSS/styleCheckpoint2.css">
+</head>
+<body>
+    <header>
+        <h1>Pesquisa de interesses - São josé dos Campos</h1>
+        <p id="p1">Olá nós do grupo do Certified tech developer, por meio deste formulário queremos saber se você, morador, estudante e/ou turista de São José dos Campos está contente com a cidade e se indicaria para seus amigos e familiares! Para nos ajudar nessa missão, você pode preencher os campos a baixo.
+        </p>
+        <p id="p2">Isso é muito importante para a nossa equipe, e você estará contribuindo com o nosso desenvolvimento!</p>
+
+    </header>
+    <main>
+    <div id="principal">
+        
+        <form action="/cadastrar" method="post" id="cadastroDados">
+        <fieldset id="dados">
+            <legend>Dados pessoais</legend>
+                <div class="dados"> 
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Insira seu nome" required>
+                </div>
+                <div class="dados">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Insira seu email" required>
+                </div>
+                <div class="dados">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="DDD + Numero" required pattern="[0-9]{11}" >
+                </div>
+                <div class="dados">
+                    <label for="dataNasc">Data de nascimento:</label>
+                    <input type="date" id="dataNasc" min="1900-01-01" required>
+                </div>
+                <div class="dados">
+                    <p id="maiorOuMenor">Você é maior ou menor de idade?</p>
+                    <input type="radio" name="idade" id="menorIdade" value="menorIdade" checked>
+                    <label for="menorIdade">Sou menor de 18 anos</label>
+                    <input type="radio" name="idade" id="maiorIdade" value="maiorIdade">  
+                    <label for="maiorIdade"> Sou maior de 18 anos</label>
+                </div>
+        </fieldset>
+
+        <fieldset id="opiniao">
+            <legend>Sua opinião</legend>
+                <div class="opiniao">
+                <label for="interessesCidade">Selecione aqui seu ponto de interesse na cidade</label>
+                <select name="interesse" id="interessesCidade">
+                    <option value="mic">MIC - Museu Interativo de Ciências</option>
+                    <option value="vsShopping">Vale Sul Shopping</option>
+                    <option value="cvShopping">Center Vale Shopping</option>
+                    <option value="ColiShopping">Colinas Shopping</option>
+                    <option value="parqueRobertoBurleMarx">Parque Roberto Burle Marx - Parque da Cidade</option>
+                    <option value="parqueSantosDumont">Parque Santos Dumont</option>
+                    <option value="arcoInovacao">Arco da Inovação - Ponte estaiada</option>
+                    <option value="cta">CTA - Centro Tecnológico Aeroespacial</option>
+                </select>
+                </div>
+
+                <div>
+                    <p id="status">Qual seu status na cidade?</p>
+                    <input type="checkbox" name="status" id="turista" value="turista">
+                    <label for="turista">Turista</label>
+
+                    <input type="checkbox" name="status" id="residente" value="residente">
+                    <label for="residente">Residente</label>
+
+                    <input type="checkbox" name="status" id="estudante" value="estudante">
+                    <label for="estudante">Estudante</label>
+
+                </div>
+
+        </fieldset>
+
+            
+            <button enabled id="limpar" type="reset">Limpar</button>
+            <button enabled id="cadastrar" type="submit">Cadastrar</button>
+        </form>
+    </div>
+</main>
+<footer>
+    <div class="imagensCidade">
+        <a href="https://www.sjc.sp.gov.br/servicos/esporte-e-qualidade-de-vida/parques/parque-da-cidade/"><img id="parque" class="imagensSJC" src="imagens/parque.jpg" alt="Entrada para o parque Roberto Burle Marx de São José dos Campos"> <figcaption>Parque Roberto Burle Marx</figcaption></a>
+
+        
+        <a href="https://www.sjc.sp.gov.br/noticias/2019/janeiro/29/selfie-point-eu-amo-sao-jose-e-atracao-na-regiao-central/"><img id="eus2sjc" class="imagensSJC" src="imagens/eus2sjc.jpg" alt="Escria Eu amo SJC" ><figcaption>Eu amo SJC</figcaption></a>
+        
+        <a href="https://www.sjc.sp.gov.br/servicos/esporte-e-qualidade-de-vida/parques/santos-dumont/"><img id="bandeirantes" class="imagensSJC" src="imagens/parque2.jpg" alt="Protótipo do avião Bandeirantes do Parque Santos Dumont" ><figcaption>Parque Santos Dumont</figcaption></a>
+
+
+        <a href="https://www.sjc.sp.gov.br/servicos/gestao-habitacional-e-obras/arco-da-inovacao/"><img id="arcoinov" class="imagensSJC" src="imagens/arcoInov.jpg" alt="Imagem aérea do Arco da Inovação " ><figcaption>Arco da Inovação</figcaption></a>
+
+        <a href="https://www.tudogostoso.com.br/receita/167147-bolinho-caipira-de-sao-jose-dos-campos-vale-do-paraiba.html"><img id="bolinho" class="imagensSJC" src="imagens/bolinhoCaipira.jpg" alt="Comparação de um bolinho caipira com o arco da inovação SJC" ><figcaption>Bolinho Caipira </figcaption></a>
+    </div>
+   
+</footer>
+<div id="agradecimento">
+    <p id="feitoPor">Feito por: Tatiane L. Gardin </p>
+    <p id="colaboracao"> Colaboração especial: Matheus de Almeida </p>
+</div>
+ 
+</body>
+</html>

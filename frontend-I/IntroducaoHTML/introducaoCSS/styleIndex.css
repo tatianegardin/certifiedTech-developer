@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+body{
+    color: #f7f7f7f1 ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Zen+Kaku+Gothic+Antique:wght@900&display=swap');
+
+h1{
+    font-family: 'Roboto';
+    font-size: 500%;
+    text-align: center;
+}
+a{
+    color: rgb(181, 182, 112);
+    font-size: 150%;
+    line-height: 200%;
+}
+

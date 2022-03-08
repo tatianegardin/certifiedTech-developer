@@ -1,0 +1,65 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+* body main .card {
+  border: 2px black solid;
+  border-radius: 10px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+* body main .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* body main .card .card-body {
+  border-radius: 10px;
+}
+
+* body main .card .card-img-top {
+  border-radius: 8px 8px 0 0;
+}
+
+* body main .botao {
+  text-align: center;
+}
+
+* body main .botao .btn {
+  width: 50%;
+  border: 2px solid;
+  font-weight: 500;
+}
+
+* body main .itens {
+  text-align: center;
+  font-weight: 900;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+* body main .itens h1 {
+  font-weight: 1000px;
+}
+
+* body footer {
+  height: 1fr;
+  background-color: black;
+  color: #746f6f;
+}
+
+* body footer .alunos {
+  color: white;
+}
+
+* body footer .icones {
+  margin: 5px;
+}
+/*# sourceMappingURL=style.css.map */
