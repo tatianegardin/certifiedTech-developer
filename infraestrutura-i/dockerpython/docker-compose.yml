@@ -1,0 +1,10 @@
+version: '3' 
+services:
+  py_service:
+    image: tati-pyimage 
+    container_name: tati-python 
+    build:
+      context: .
+
+
+
